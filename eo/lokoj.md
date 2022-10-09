@@ -6,36 +6,38 @@
 
 # specoj de lokoj
 
-| gramps kodo | gramps eo | gramps fr | gov | gouv.fr      | geonames.org |
-|-------------|-----------|-----------|-----|--------------|--------------|
-| 1           | Lando     | Pays      |     | Pays         |              |
-| 2           |           |           |     |              |              |
-| 3           |           |           |     |              |              |
-| 4           |           |           |     |              |              |
-| 5           |           |           |     |              |              |
-| 6           |           |           |     |              |              |
-| 7           |           |           |     |              |              |
-| 8           |           |           |     |              |              |
-| 9           |           |           |     | Région       |              |
-| 10          |           |           |     | Département  |              |
-| 11          |           |           |     |              |              |
-| 12          |           |           |     |              |              |
-| 13          |           |           |     |              |              |
-| 14          |           |           |     | Commune      |              |
-| 15          |           |           |     |              |              |
-| 16          |           |           |     |              |              |
-| 17          |           |           |     |              |              |
-| 18          |           |           |     |              |              |
-| 19          |           |           |     |              |              |
-| 20          |           |           |     |              |              |
+| gramps kodo | gramps eo     | gramps fr                 | gov | gouv.fr        | geonames.org |
+|-------------|---------------|---------------------------|-----|----------------|--------------|
+| 1           | Lando         | Pays                      |     | Pays           |  PCLI        |
+| 2           | Ŝtato         | Province (Région)         |     |                |              |
+| 3           | Provinco      | Comté (Départ.)           |     |                |              |
+| 4           | Urbo          | Ville                     |     |                |              |
+| 5           | Paroko        | Paroisse                  |     |                |              |
+| 6           | Loko          | Lieu-dit                  |     |                |              |
+| 7           | Strato        | Rue                       |     |                |              |
+| 8           | Provinco      | Province                  |     |                |              |
+| 9           | Regiono       | Région                    |     | Région         | ADM1         |
+| 10          | Departmento   | Département               |     | Département    | ADM2         |
+| 11          | Proksimeco    | Quartier                  |     |                |              |
+| 12          | Distrikto     | District (Arrondissement) |     |                |              |
+| 13          | Urbodistrikto |	Borough (Arrondissement)  |     | Arrondissement | ADM3         |
+| 14          | Municipo      | Municipalité              |     | Commune        | ADM4         |
+| 15          | Urbo          | Bourg                     |     |                |              |
+| 16          | Vilaĝo        | Village                   |     |                |              |
+| 17          | Vilaĝeto      | Hameau                    |     |                |              |
+| 18          | Farmo         | Ferme                     |     |                |              |
+| 19          | Konstruaĵo    | Immeuble                  |     |                |              |
+| 20          | Numero        | Numéro                    |     |                |              |
 
 
 # aldonaĵoj
 
 * getgov
   * interfaco kun http://gov.genealogy.net/
-* getinsee
+* PlaceFrCog
   * interfaco kun http://api.gouv.fr/  
+* GeoName
+  * interfaco kun http://www.geonames.org/
 * PlaceCleanupGramplet
 * PlaceUpdate
 * PlaceCoordinatesGramplet
