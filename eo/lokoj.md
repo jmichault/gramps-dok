@@ -36,9 +36,8 @@
   * interfaco kun http://gov.genealogy.net/
 * PlaceFrCog
   * interfaco kun http://api.gouv.fr/  
-* GeoName
-  * interfaco kun http://www.geonames.org/
 * PlaceCleanupGramplet
+  * interfaco kun http://www.geonames.org/
 * PlaceUpdate
 * PlaceCoordinatesGramplet
 * PlaceCoordinateGeoView
