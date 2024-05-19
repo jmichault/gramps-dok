@@ -47,6 +47,45 @@
         <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{site.baseurl}}/{{ page.lang }}">{{ site.data.translations[page.lang]['cxiujAfisxoj'] }}</a>
     {% endif %}
     {% assign page_indekso = site.pages | where:"lang", page.lang | where:"lang-ref", "indekso" %}
+
+    {% comment %}
+      On génère dans la barre de navigation la liste des pages :
+       * qui sont de type page (`layout: page` dans l'en-tête)
+       * qui n'ont pas catégorie définie (pas de ligne `kategorio: xxx` dans l'en-tête)
+    {% endcomment %}
+    {% assign pages_list = site.pages | where:"lang", page.lang | where:"kategorio", nil| sort:"lang-ref" %}
+    {% for node in pages_list %}
+      {% if node.title != null %}
+        {% if node.layout == "page" %}
+          {% if node.lang-ref != "indekso" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{site.baseurl}}{{ node.url }}">{{ node.title | markdownify }}</a>
+          {% endif %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% comment %}
+      On génère dans la barre de navigation des menus déroulants avec les pages :
+       * qui sont de type page (`layout: page` dans l'en-tête)
+       * qui ont une catégorie définie (`kategorio: xxx` dans l'en-tête)
+      ces pages sont regroupée par leur catégorie
+    {% endcomment %}
+    {% assign grouped = site.pages | where:"lang", page.lang | group_by: 'kategorio' %}
+    {% for group in grouped %}
+     {% unless group.name == ""  %}
+      <details {% if page.kategorio == group.name %}open{% endif %}> <summary><strong>{{group.name}}</strong></summary>
+      {% assign items = group.items | sort: 'lang-ref' %}
+        <ul>
+        {% for item in items %}
+           <li class="nav-item {% if item.url == node.url %}current{% endif %}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title |markdownify }}</a></li>
+        {% endfor %}
+        </ul>
+      </details>
+     {% endunless %}
+    {% endfor %}
+
+
+
     {% for node in pages_list %}
       {% if node.layout == "index" %}
         <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{site.baseurl}}/{{ page.lang }}">{{ site.data.translations[page.lang]['cxiujAfisxoj'] }}</a>
@@ -54,21 +93,6 @@
       {% endif %}
     {% endfor %}
 
-      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
-      {% assign pages_list = site.pages | where:"lang", page.lang | sort:"lang-ref" %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            {% if node.lang-ref != "indekso" %}
-              <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{site.baseurl}}{{ node.url }}">{{ node.title | markdownify }}</a>
-            {% endif %}
-          {% endif %}
-        {% endif %}
-      {% endfor %}
     </nav>
     <p>&copy; {{ site.auxtoro }} {{ site.time | date: '%Y' }}.<br>{{ site.data.translations[page.lang]['rajtoj'] }} {{site.permesilo}}
     <br> {{ site.data.translations[page.lang]['Funkciigita'] }} <a href="https://github.com/jmichault/jekyll-plurlingva">jekyll-plurlingva</a> </p>

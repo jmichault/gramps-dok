@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.8.3"
+gem "jekyll"
 
-gem "minima", "~> 2.0"
+gem "minima"
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-feed"
   gem 'jekyll-compose'
 end
 
@@ -17,4 +17,7 @@ gem 'jekyll-relative-links'
 
 gem 'jekyll-sitemap'
 
-gem 'rexml'
+gem "webrick"
+
+gem "jekyll-mentions"
+
