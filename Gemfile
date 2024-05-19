@@ -17,3 +17,4 @@ gem 'jekyll-relative-links'
 
 gem 'jekyll-sitemap'
 
+gem 'rexml'
