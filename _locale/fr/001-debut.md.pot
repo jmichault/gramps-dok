@@ -1,0 +1,391 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-05-19 15:25+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Yaml Front Matter Hash Value: kategorio
+#: 001-debut.md:1
+#, no-wrap
+msgid "Présentation"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: 001-debut.md:1
+#, no-wrap
+msgid "Schémas simplifiés des données"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:12
+#, no-wrap
+msgid "Avant de rentrer dans gramps, il est important de comprendre comment sont organisées les données.\n"
+msgstr ""
+
+#. type: Title #
+#: 001-debut.md:13
+#, no-wrap
+msgid "L'univers familial"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:18
+#, no-wrap
+msgid ""
+"Les trois objets essentiels qui vont vous permettre de construire votre arbre sont :\n"
+"* l'individu :   \n"
+"  la base de votre généalogie.\n"
+"* la famille :  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:20
+#, no-wrap
+msgid ""
+"  une famille dans gramps est constituée de un ou deux individus \\(classiquement le mari et la femme, mais gramps autorise toutes les combinaisons\\), et d'enfants. Elle va permettre de construire l'arbre.\n"
+"* l'évènement :  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:21
+#, no-wrap
+msgid "  un évènement est constitué principalement d'un type, d'une date \\(ou une pèriode\\), et d'une description.  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:24
+#, no-wrap
+msgid ""
+"  Par exemple la naissance, la déclaration de naissance, le décès, le mariage, la profession vont être saisis dans un évènement.\n"
+"  L'évènement peut être référencé par des individus et/ou des familles.\n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:45
+#, no-wrap
+msgid ""
+"<div class=\"mermaid\">\n"
+"  erDiagram\n"
+"    Famille ||--o| Individu : \"Mari/conjoint\"\n"
+"    Famille ||--o| Individu : \"Femme/conjoint\"\n"
+"    Famille ||--o{ Individu : \"Enfants\"\n"
+"    Famille ||--o{ \"Évènements\" : participe\n"
+"    Individu ||--o{ \"Évènements\" : participe\n"
+"    Individu{\n"
+"      Nom Nom_Principal\n"
+"      liste_de_Nom Noms_Alternatifs\n"
+"    }\n"
+"    Famille{\n"
+"      Texte Type\n"
+"    }\n"
+"    \"Évènements\"{\n"
+"      Texte Type\n"
+"      Date Date_de_l_evenement\n"
+"      Texte Description\n"
+"      Lieu  lieu_de_l_evenement\n"
+"    }\n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:47
+#, no-wrap
+msgid "</div>\n"
+msgstr ""
+
+#. type: Title #
+#: 001-debut.md:48
+#, no-wrap
+msgid "L'univers des sources"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:49
+#, no-wrap
+msgid "Sourcer votre généalogie est essentiel pour sa validation.  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:51
+#, no-wrap
+msgid ""
+"Vous disposez de trois objets pour gérer les sources :\n"
+"* la citation :  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:52
+#, no-wrap
+msgid "  C'est l'élément le plus fin des sources, celui qui va être référencé par l'individu, la famille, l'évènement, le lieu, le média.  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:55
+#, no-wrap
+msgid ""
+"  Par exemple ça va être l'acte de naissance trouvé dans un registre, un paragraphe dans un livre ou une revue…\n"
+"  La citation est reliée à une source.\n"
+"* la source :  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:56
+#, no-wrap
+msgid "  La source est le support dans lequel vous puisez vos citations.  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:59
+#, no-wrap
+msgid ""
+"  Ça peut être un registre, un microfilm, un livre…\n"
+"  La source est localisée dans un ou plusieurs dépôts.\n"
+"* les dépôts :  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:60
+#, no-wrap
+msgid "  Le dépôt permet de regrouper les sources.  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:61
+#, no-wrap
+msgid "  Ça peut être une archive départementale, un site internet, votre coffre-fort …  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:62
+#, no-wrap
+msgid "  Une source peut se trouver dans plusieurs dépôts.  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:86
+#, no-wrap
+msgid ""
+"  Malheureusement, la hiérarchie des sources s'arrête là. On aurait pu souhaiter qu'un dépôt fasse partie d'un autre dépôt, mais gramps ne le prend pas en charge actuellement.\n"
+"<div class=\"mermaid\">\n"
+"  erDiagram\n"
+"    Citation ||--o| Source : dans\n"
+"    Source ||--o{ \"Dépôt\" : \"conservée dans (type de support, cote)\"\n"
+"    Citation{\n"
+"      Date date_de_l_evenement\n"
+"      Volume_Page emplacement_dans_la_source\n"
+"      niveau niveau_de_confiance\n"
+"    }\n"
+"    Source{\n"
+"      Texte Titre\n"
+"      Texte Auteurs\n"
+"      Texte Infos_publication\n"
+"      Texte Abbreviation\n"
+"    }\n"
+"    \"Dépôt\"{\n"
+"      Texte Nom\n"
+"      Texte Type\n"
+"      Adresse   Adresse\n"
+"      liste_de_liens Liens_internet\n"
+"    }\n"
+"</div>\n"
+msgstr ""
+
+#. type: Title #
+#: 001-debut.md:87
+#, no-wrap
+msgid "Les objets annexes"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:89
+#, no-wrap
+msgid ""
+"Enfin quatre objets pour enrichir vos données :\n"
+"* le média :  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:90
+#, no-wrap
+msgid "   Permet d'intégrer un fichier dans l'arbre. Ça peut être une image, une vidéo, un PDF, ou n'importe quoi d'autre.  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:92
+#, no-wrap
+msgid ""
+"   On va pouvoir le relier à des individus, des familles, des évènements, des citations ou des lieux.\n"
+"* la note :  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:93
+#, no-wrap
+msgid "   Constituée d'un titre et d'un texte\\(multiligne et formatable\\).  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:97
+#, no-wrap
+msgid ""
+"   Fort Utile ! Peut être reliée à n'importe quel objet ou référence d'objet.\n"
+"   Permet de renseigner le contenu des documents, de saisir des pistes de recherche et bien d'autres choses.\n"
+"   Une note peut être reliée à plusieurs objets.\n"
+"* le lieu :  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:98
+#, no-wrap
+msgid "  Pour ne pas ressaisir n fois la même chose, éviter les erreurs de recopie, localiser précisément les lieux où se sont produits vos évènements.  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:99
+#, no-wrap
+msgid "  Les lieux peuvent s'emboîter les uns dans les autres \\(exemple : pays --> département --> commune --> hameau\\).  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:103
+#, no-wrap
+msgid ""
+"  Avant de commencer à saisir les lieux, vous devriez bien réfléchir à votre manière d'organiser les lieux, et au greffon qui vous permettra de les gérer.\n"
+"* l'étiquette\n"
+"  Elles sont gérables par le menu «Édition»-->«Étiquette»   \n"
+"  Sur chaque objet vous pouvez mettre des étiquettes.  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:104
+#, no-wrap
+msgid "  Une étiquette est un texte court, auquel est associé une couleur.  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:108
+#, no-wrap
+msgid ""
+"  Les étiquettes peuvent être utilisées :\n"
+"  * pour filtrer\n"
+"  * pour mettre en évidence dans les listes ou dans la vue graphique, grâce à la couleur.\n"
+msgstr ""
+
+#. type: Title #
+#: 001-debut.md:109
+#, no-wrap
+msgid "le schéma complet"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:111
+#, no-wrap
+msgid "Si vous souhaitez aller davantage dans le détail, le schéma de la base de données gramps peut être consulté ici : <https://gramps-project.org/wiki/index.php/Gramps_Data_Model>\n"
+msgstr ""
+
+#. type: Title #
+#: 001-debut.md:113
+#, no-wrap
+msgid "Premières saisies"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:114
+#, no-wrap
+msgid "créer un individu"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:115
+#, no-wrap
+msgid "ajouter un évènement à un individu"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:116
+#, no-wrap
+msgid "ajouter les parents"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:117
+#, no-wrap
+msgid "ajouter un conjoint"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:118
+#, no-wrap
+msgid "ajouter un enfant"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:119
+#, no-wrap
+msgid "ajouter une citation"
+msgstr ""
+
+#. type: Title #
+#: 001-debut.md:121
+#, no-wrap
+msgid "Aller plus loin"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:122
+#, no-wrap
+msgid "les lieux"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:123
+#, no-wrap
+msgid "les notes"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:124
+#, no-wrap
+msgid "les étiquettes"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:125
+#, no-wrap
+msgid "les médias"
+msgstr ""
+
+#. type: Title #
+#: 001-debut.md:128
+#, no-wrap
+msgid "Où obtenir de l'aide ?"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 001-debut.md:131
+#, no-wrap
+msgid "la documentation officielle : <https://gramps-project.org/wiki/index.php/Gramps_5.1_Wiki_Manual>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 001-debut.md:131
+#, no-wrap
+msgid "le discourse de gramps : <https://gramps.discourse.group/> \\(en anglais\\)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 001-debut.md:131
+#, no-wrap
+msgid "le forum geneanet : <https://www.geneanet.org/forum/viewforum.php?f=55945&sid=de725cd97855d4a68268a420061b629f> \\(en français\\)\n"
+msgstr ""

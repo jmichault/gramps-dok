@@ -1,0 +1,156 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: PACKAGE VERSION\nPOT-Creation-Date: 2024-05-19 17:44+0200\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\nLanguage-Team: LANGUAGE <LL@li.org>\nLanguage: en\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+
+#. type: Yaml Front Matter Hash Value: kategorio
+#: ./008-lokoj.md:1
+#, no-wrap
+#, fuzzy
+msgid "Iru plie"
+msgstr "Go further"
+
+#. type: Yaml Front Matter Hash Value: title
+#: ./008-lokoj.md:1
+#, no-wrap
+#, fuzzy
+msgid "Loko -Administrado"
+msgstr "Location -management"
+
+#. type: Title #
+#: ./008-lokoj.md:10
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Fontoj por lokoj"
+msgstr "Sources for places"
+
+#. type: Bullet: '* '
+#: ./008-lokoj.md:12
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "http://gov.genealogy.net/\n"
+msgstr "http://gov.genealogy.net/\n"
+
+#. type: Bullet: '* '
+#: ./008-lokoj.md:15
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "http://geo.api.gouv.fr/ Kaj https://api.insee.fr/\n"
+msgstr "http://geo.api.gouv.fr/ and https://api.insee.fr/\n"
+
+#. type: Bullet: '* '
+#: ./008-lokoj.md:18
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "https://www.geonames.org/v3/\n"
+msgstr "https://www.geonames.org/v3/\n"
+
+#. type: Title #
+#: ./008-lokoj.md:21
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Specoj de lokoj"
+msgstr "Types of places"
+
+#. type: Plain text
+#: ./008-lokoj.md:24
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "| \n"
+msgstr "|  \n"
+
+#. type: Title #
+#: ./008-lokoj.md:26
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "grefto"
+msgstr "graft"
+
+#. type: Bullet: '* '
+#: ./008-lokoj.md:29
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "GetGov\n"
+msgstr "GetGov\n"
+
+#. type: Bullet: '  * '
+#: ./008-lokoj.md:32
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "interfaco kun http://gov.genealogy.net/\n"
+msgstr "interface with http://gov.genealogy.net/\n"
+
+#. type: Bullet: '* '
+#: ./008-lokoj.md:35
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "PlaceFRCOG\n"
+msgstr "Placefrcog\n"
+
+#. type: Bullet: '  * '
+#: ./008-lokoj.md:37
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "interfaco kun http://api.gouv.fr/  \n"
+msgstr "interface with http://api.gouv.fr/  \n"
+
+#. type: Bullet: '* '
+#: ./008-lokoj.md:41
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "PlaceCleanupgramplet\n"
+msgstr "Placecleanupgrampplet\n"
+
+#. type: Bullet: '  * '
+#: ./008-lokoj.md:44
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "interfaco kun http://www.geonames.org/\n"
+msgstr "interface with http://www.geonames.org/\n"
+
+#. type: Bullet: '* '
+#: ./008-lokoj.md:47
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "PlaceUpdate\n"
+msgstr "Placeupdate\n"
+
+#. type: Bullet: '* '
+#: ./008-lokoj.md:50
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "PlaceCoordinateSgramplet\n"
+msgstr "Placecoordinatesgrampplet\n"
+
+#. type: Bullet: '* '
+#: ./008-lokoj.md:53
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "PlaceCoordinateGieView\n"
+msgstr "Placecoordinategieview\n"
+
+#. type: Bullet: '* '
+#: ./008-lokoj.md:56
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Loko\n"
+msgstr "Location\n"
+
+#. type: Bullet: '* '
+#: ./008-lokoj.md:59
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "ExtractCity\n"
+msgstr "ExtractCity\n"
+
+#. type: Bullet: '* '
+#: ./008-lokoj.md:62
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Googleearthwritekml\n"
+msgstr "GoogleEArthWriteKml\n"
+

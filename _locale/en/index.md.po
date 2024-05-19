@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-05-19 17:44+0200\n"
+"PO-Revision-Date: 2024-05-19 17:51+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. type: Yaml Front Matter Hash Value: title
+#: index.md:1
+#, no-wrap
+msgid "Enkonduko"
+msgstr "Introduction"
+
+#. type: Plain text
+#: index.md:11
+#, no-wrap
+msgid ""
+"_Gramps_ permesas administri genealogian datumbazon.   \n"
+"La unua kontakto kun _Gramps_ ofte malfacilas, ĉar la projektistoj faris malsamajn elektojn de aliaj programoj, ekzemple sur la \"individua\" folio, ni ne povas rekte eniri la daton de naskiĝo \\(ni devas krei naskiĝon Tajpu eventon\\).   \n"
+"Aliflanke, la elekto estis farita por administri nur la esencajn en la programaro mem: la enigo kaj montrado de datumoj. Ĉiuj aliaj funkcioj estas administritaj en kromaĵojn, el kiuj estas multaj, sed nur kelkaj el kiuj estas instalitaj defaŭlte. Ĉi tie denove ĝi povas esti konfuza ĉar iuj funkcioj, kiuj povas ŝajni esencaj, ne ĉeestas defaŭlte \\(sed kie estas la SOSA?\\).  \n"
+msgstr ""
+"_Gramps_ allows you to manage a genealogy database.\n"
+"The first contact with _Gramps_ is often difficult, because the designers made different choices from other programs, for example on the \"individual\" sheet, we cannot directly enter the date of birth \\(we have to create a birth Type event\\).\n"
+"On the other hand, the choice was made to manage only the essentials in the software itself: the input and display of data. All other features are managed into plugins, of which there are many, but only a few of which are installed by default. Here again it can be confusing because some features that may seem essential are not present by default \\(but where is the SOSA?\\).  \n"
+
+#. type: Plain text
+#: index.md:18
+#, no-wrap
+msgid ""
+"Post kiam ĉi tiuj unuaj obstakloj estos venkitaj, vi povos plene profiti la kvalitojn de _Gramps_, ekzemple:\n"
+"* la potenco de la filtriloj\n"
+"* la riĉeco de la grefaĵoj\n"
+"* la tondujo\n"
+"* la kapablo meti notojn preskaŭ ie ajn\n"
+"* bona administrado de fontoj\n"
+"* kaj multaj aliaj...\n"
+msgstr ""
+"Once these first hurdles are overcome, you will be able to take full advantage of the qualities of _Gramps_, for example:\n"
+"* the power of the filters\n"
+"* the richness of the grafts\n"
+"* the clipboard\n"
+"* the ability to put notes almost anywhere\n"
+"* good management of sources\n"
+"* and many others...\n"

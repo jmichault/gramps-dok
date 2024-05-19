@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-05-19 18:08+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Hash Value: lang Funkciigita
+#: _data/site-translations.yml:1
+#, no-wrap
+msgid "Propulsé par"
+msgstr ""
+
+#. type: Hash Value: lang cxiujAfisxoj
+#: _data/site-translations.yml:1
+#, no-wrap
+msgid "Tous les messages"
+msgstr ""
+
+#. type: Hash Value: lang elektuLingvon
+#: _data/site-translations.yml:1
+#, no-wrap
+msgid "Choisissez votre langue"
+msgstr ""
+
+#. type: Hash Value: lang komentis
+#: _data/site-translations.yml:1
+#, no-wrap
+msgid "a commenté le "
+msgstr ""
+
+#. type: Hash Value: lang komentoButono
+#: _data/site-translations.yml:1
+#, no-wrap
+msgid "Ajouter un commentaire (sur github)"
+msgstr ""
+
+#. type: Hash Value: lang komentoj
+#: _data/site-translations.yml:1
+#, no-wrap
+msgid "Commentaires :"
+msgstr ""
+
+#. type: Hash Value: lang malsamaLingvo
+#: _data/site-translations.yml:1
+#, no-wrap
+msgid "Lire cette page dans une autre langue"
+msgstr ""
+
+#. type: Hash Value: lang priskribo
+#: _data/site-translations.yml:1
+#, no-wrap
+msgid "Quelques notes sur Gramps, le programme de généalogie."
+msgstr ""
+
+#. type: Hash Value: lang rajtoj
+#: _data/site-translations.yml:1
+#, no-wrap
+msgid "Licence <a rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\"><img alt =\"Licence Creative Commons\" style=\"display:inline;border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/88x31.png\" title=\"CC-BY-SA 4.0\"/></ a>"
+msgstr ""
+
+#. type: Hash Value: lang rigardiEn
+#: _data/site-translations.yml:1
+#, no-wrap
+msgid "Regarder dans"
+msgstr ""
+
+#. type: Hash Value: lang rilatajAfisxoj
+#: _data/site-translations.yml:1
+#, no-wrap
+msgid "Articles Similaires"
+msgstr ""
+
+#. type: Hash Value: lang sercxi
+#: _data/site-translations.yml:1
+#, no-wrap
+msgid "Recherche google."
+msgstr ""
+
+#. type: Hash Value: lang titolo
+#: _data/site-translations.yml:1
+#, no-wrap
+msgid "Notes sur Gramps."
+msgstr ""
+
+#. type: Hash Value: lang tradukoAverto
+#: _data/site-translations.yml:1
+#, no-wrap
+msgid "Attention: cette page a été traduite automatiquement. Si vous le pouvez, vous devriez la lire dans l'une de ces langues:"
+msgstr ""

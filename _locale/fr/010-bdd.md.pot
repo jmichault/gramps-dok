@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-05-19 17:04+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Yaml Front Matter Hash Value: kategorio
+#: 010-bdd.md:1
+#, no-wrap
+msgid "Aller plus loin"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: 010-bdd.md:1
+#, no-wrap
+msgid "description plus fine des données"
+msgstr ""
+
+#. type: Title #
+#: 010-bdd.md:10
+#, no-wrap
+msgid "les tables"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 010-bdd.md:29
+#, no-wrap
+msgid "les individus (person) : \n"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: 010-bdd.md:29
+#, no-wrap
+msgid "propriétés uniques : ID, genre\n"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: 010-bdd.md:29
+#, no-wrap
+msgid "propriétés multiples : (ne peuvent pas être partagées avec d'autres objets)\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: 010-bdd.md:29
+#, no-wrap
+msgid "noms, dont le nom préféré (obligatoire, mais peut être vide), qu'on peut saisir directement sur la fiche de l'individu.\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: 010-bdd.md:29
+#, no-wrap
+msgid "attributs\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: 010-bdd.md:29
+#, no-wrap
+msgid "adresses\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: 010-bdd.md:29
+#, no-wrap
+msgid "notes\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: 010-bdd.md:29
+#, no-wrap
+msgid "internet\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: 010-bdd.md:29
+#, no-wrap
+msgid "associations\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: 010-bdd.md:29
+#, no-wrap
+msgid "mormons\n"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: 010-bdd.md:29
+#, no-wrap
+msgid "propriétés multiples pointées : (peuvent être partagées avec d'autres objets)\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: 010-bdd.md:29
+#, no-wrap
+msgid "étiquettes\n"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: 010-bdd.md:29
+#, no-wrap
+msgid "propriétés multiples référencées : (peuvent être partagées avec d'autres objets, la référence possède des propriétés non partagées)\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: 010-bdd.md:29
+#, no-wrap
+msgid "galeries\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: 010-bdd.md:29
+#, no-wrap
+msgid "évènements\n"
+msgstr ""
+
+#. type: Bullet: '    * '
+#: 010-bdd.md:29
+#, no-wrap
+msgid "citations\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 010-bdd.md:29
+#, no-wrap
+msgid "les familles (family)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 010-bdd.md:29
+#, no-wrap
+msgid "les évènements (event)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 010-bdd.md:33
+#, no-wrap
+msgid "les dépôts (repository)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 010-bdd.md:33
+#, no-wrap
+msgid "les sources (source)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 010-bdd.md:33
+#, no-wrap
+msgid "les citations (citation)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 010-bdd.md:38
+#, no-wrap
+msgid "les media (media)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 010-bdd.md:38
+#, no-wrap
+msgid "les notes (note)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 010-bdd.md:38
+#, no-wrap
+msgid "les lieux (place)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 010-bdd.md:38
+#, no-wrap
+msgid "les étiquettes (tag), accessibles par le menu «Édition»-->«Étiquette»\n"
+msgstr ""

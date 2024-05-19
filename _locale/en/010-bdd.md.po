@@ -1,0 +1,205 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: PACKAGE VERSION\nPOT-Creation-Date: 2024-05-19 17:43+0200\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\nLanguage-Team: LANGUAGE <LL@li.org>\nLanguage: en\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+
+#. type: Yaml Front Matter Hash Value: kategorio
+#: ./010-bdd.md:1
+#, no-wrap
+#, fuzzy
+msgid "Iru plie"
+msgstr "Go further"
+
+#. type: Yaml Front Matter Hash Value: title
+#: ./010-bdd.md:1
+#, no-wrap
+#, fuzzy
+msgid "Pli maldikaj gradoj da datumoj"
+msgstr "Thinner degrees of data"
+
+#. type: Title #
+#: ./010-bdd.md:10
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "la tabloj"
+msgstr "the tables"
+
+#. type: Bullet: '* '
+#: ./010-bdd.md:12
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Individuoj (Persono) : \n"
+msgstr "Individuals (Person) : \n"
+
+#. type: Bullet: '  * '
+#: ./010-bdd.md:14
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Unikaj Propraĵoj: ID, Ĝenro\n"
+msgstr "Unique properties: ID, genre\n"
+
+#. type: Bullet: '  * '
+#: ./010-bdd.md:16
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Multoblaj Propraĵoj: (ne povas esti dividita kun aliaj objektoj)\n"
+msgstr "Multiple properties: (cannot be shared with other objects)\n"
+
+#. type: Bullet: '    * '
+#: ./010-bdd.md:18
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Nomoj, inkluzive de la preferata nomo (deviga, sed povas esti malplena), kiu povas esti ekprenita rekte sur la dosiero de la individuo. \n"
+msgstr "Names, including the favorite name (mandatory, but can be empty), which can be taken directly on the individual's file.  \n"
+
+#. type: Bullet: '    * '
+#: ./010-bdd.md:20
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Atributoj\n"
+msgstr "Attributes\n"
+
+#. type: Bullet: '    * '
+#: ./010-bdd.md:22
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Adresoj\n"
+msgstr "Addresses\n"
+
+#. type: Bullet: '    * '
+#: ./010-bdd.md:24
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Notoj\n"
+msgstr "Notes\n"
+
+#. type: Bullet: '    * '
+#: ./010-bdd.md:26
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Interreto\n"
+msgstr "Internet\n"
+
+#. type: Bullet: '    * '
+#: ./010-bdd.md:28
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Asocioj\n"
+msgstr "Associations\n"
+
+#. type: Bullet: '    * '
+#: ./010-bdd.md:30
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Mormonoj\n"
+msgstr "Mormons\n"
+
+#. type: Bullet: '  * '
+#: ./010-bdd.md:32
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Multoblaj proprietoj montritaj: (povas esti dividitaj kun aliaj objektoj)\n"
+msgstr "Multiple properties shown: (can be shared with other objects)\n"
+
+#. type: Bullet: '    * '
+#: ./010-bdd.md:34
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Etikedoj\n"
+msgstr "Tags\n"
+
+#. type: Bullet: '  * '
+#: ./010-bdd.md:36
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Multoblaj propraĵoj referencitaj: (povas esti dividitaj kun aliaj objektoj, la referenco ne dividis proprietojn)\n"
+msgstr "Multiple properties referenced: (can be shared with other objects, the reference did not share properties)\n"
+
+#. type: Bullet: '    * '
+#: ./010-bdd.md:38
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Galerioj\n"
+msgstr "Galleries\n"
+
+#. type: Bullet: '    * '
+#: ./010-bdd.md:40
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "eventoj\n"
+msgstr "Events\n"
+
+#. type: Bullet: '    * '
+#: ./010-bdd.md:42
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Citaĵoj\n"
+msgstr "Quotes\n"
+
+#. type: Bullet: '* '
+#: ./010-bdd.md:44
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Familioj (familio)\n"
+msgstr "Families (family)\n"
+
+#. type: Bullet: '* '
+#: ./010-bdd.md:46
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Eventoj (okazaĵo)\n"
+msgstr "Events (event)\n"
+
+#. type: Bullet: '* '
+#: ./010-bdd.md:49
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Deponejoj (Restaĵo)\n"
+msgstr "Deposits (residue)\n"
+
+#. type: Bullet: '* '
+#: ./010-bdd.md:51
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Fontoj (Fonto)\n"
+msgstr "Sources (Source)\n"
+
+#. type: Bullet: '* '
+#: ./010-bdd.md:53
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Citaĵoj (citaĵo)\n"
+msgstr "Quotes (quote)\n"
+
+#. type: Bullet: '* '
+#: ./010-bdd.md:56
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "Amaskomunikilaro (Amaskomunikilaro)\n"
+msgstr "Media (Media)\n"
+
+#. type: Bullet: '* '
+#: ./010-bdd.md:58
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "La notoj (notas)\n"
+msgstr "The notes (notes)\n"
+
+#. type: Bullet: '* '
+#: ./010-bdd.md:60
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "la lokoj (loko)\n"
+msgstr "The places (location)\n"
+
+#. type: Bullet: '* '
+#: ./010-bdd.md:62
+#, markdown-text, no-wrap
+#, fuzzy
+msgid "La etikedoj (etikedo), atingeblaj per la \"eldono\" menuo->\"etikedo\"\n"
+msgstr "The tags (tag), accessible by the \"edition\"menu>\"tag\"(° 8 ° ° \n"
+

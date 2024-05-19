@@ -1,0 +1,149 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-05-19 17:04+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Yaml Front Matter Hash Value: kategorio
+#: z01-sosa.md:1
+#, fuzzy
+msgid "Trucs et astuces"
+msgstr "Konsiloj kaj lertaĵoj"
+
+#. type: Yaml Front Matter Hash Value: title
+#: z01-sosa.md:1
+#, fuzzy, no-wrap
+msgid "Mettre en évidence ses SOSA"
+msgstr "Emfazu vian Sosa"
+
+#. type: Plain text
+#: z01-sosa.md:12
+#, fuzzy, no-wrap
+msgid "but : mettre une étiquette violette sur tous ses ancêtres.\n"
+msgstr "Sed: Metu purpuran etikedon sur ĉiujn viajn prapatrojn. \n"
+
+#. type: Plain text
+#: z01-sosa.md:14
+#, fuzzy, no-wrap
+msgid "pré-requis conseillé : avoir installé l'extension «Vue Graphique»\n"
+msgstr "Rekomendindaj Antaŭkondiĉoj: Instalinte la \"grafikan vidon\" etendon\n"
+
+#. type: Bullet: '1. '
+#: z01-sosa.md:32
+#, fuzzy, no-wrap
+msgid "créer une étiquette SOSA :\n"
+msgstr "Kreu SOSA -etikedon:\n"
+
+#. type: Bullet: '   * '
+#: z01-sosa.md:32
+#, fuzzy, no-wrap
+msgid "aller dans le menu «Édition» --> «Étiquette» --> «Nouvelle Étiquette»\n"
+msgstr "Iru al la menuo \"Eldono\" -> \"etikedo\" -> \"Nova etikedo\"\n"
+
+#. type: Bullet: '     * '
+#: z01-sosa.md:32
+#, fuzzy, no-wrap
+msgid "Nom : mettre SOSA\n"
+msgstr "Nomo: Metu Sosa\n"
+
+#. type: Bullet: '     * '
+#: z01-sosa.md:32
+#, fuzzy, no-wrap
+msgid "couleur : choisir une couleur, j'utilise le violet.\n"
+msgstr "Koloro: Elektu koloron, mi uzas purpuron. \n"
+
+#. type: Bullet: '2. '
+#: z01-sosa.md:32
+#, fuzzy, no-wrap
+msgid "Noter l'identifiant de l'individu souche.\n"
+msgstr "Rimarku la identigilon de la streĉa individuo. \n"
+
+#. type: Bullet: '3. '
+#: z01-sosa.md:32
+#, fuzzy, no-wrap
+msgid "aller dans la vue «Individus».\n"
+msgstr "Iru al la \"individua\" vido. \n"
+
+#. type: Bullet: '4. '
+#: z01-sosa.md:32
+#, fuzzy, no-wrap
+msgid "créer un filtre SOSA\n"
+msgstr "Kreu SOSA -filtrilon\n"
+
+#. type: Bullet: '   * '
+#: z01-sosa.md:32
+#, fuzzy, no-wrap
+msgid "règle = «Ascendants de cet \\<individu\\>»\n"
+msgstr "Regulo = \"Ascendantoj de ĉi tiu \\<individuo\\>\"\n"
+
+#. type: Bullet: '   * '
+#: z01-sosa.md:32
+#, fuzzy, no-wrap
+msgid "Valeurs :\n"
+msgstr "Valoroj:\n"
+
+#. type: Bullet: '     * '
+#: z01-sosa.md:32
+#, fuzzy, no-wrap
+msgid "Identifiant : mettre l'identifiant de l'individu souche\n"
+msgstr "Identigilo: Metu la identigilon de la streĉa individuo\n"
+
+#. type: Bullet: '     * '
+#: z01-sosa.md:32
+#, fuzzy, no-wrap
+msgid "Inclusif : cocher\n"
+msgstr "Inkluziva: Kontrolu\n"
+
+#. type: Bullet: '5. '
+#: z01-sosa.md:32
+#, fuzzy, no-wrap
+msgid "appliquer le filtre\n"
+msgstr "Apliki la filtrilon\n"
+
+#. type: Bullet: '6. '
+#: z01-sosa.md:32
+#, fuzzy, no-wrap
+msgid "sélectionner tous les SOSA :\n"
+msgstr "Elektu Ĉian Sosa:\n"
+
+#. type: Bullet: '  * '
+#: z01-sosa.md:32
+#, fuzzy, no-wrap
+msgid "cliquer sur le premier pour le sélectionner\n"
+msgstr "Alklaku la unuan por elekti ĝin\n"
+
+#. type: Bullet: '  * '
+#: z01-sosa.md:32
+#, fuzzy, no-wrap
+msgid "shift-cliquer sur le dernier pour les sélectionner tous\n"
+msgstr "Shift-alklaku la lastan por elekti ilin ĉiujn\n"
+
+#. type: Bullet: '7. '
+#: z01-sosa.md:32
+#, fuzzy, no-wrap
+msgid "cliquer sur l'icône des étiquettes\n"
+msgstr "Alklaku la ikonon de la etikedoj\n"
+
+#. type: Bullet: '  * '
+#: z01-sosa.md:32
+#, fuzzy, no-wrap
+msgid "choisir l'option «Ajouter l'étiquette SOSA»\n"
+msgstr "Elektu la opcion \"Aldoni la SOSA -Etikedon\"\n"
+
+#. type: Plain text
+#: z01-sosa.md:34
+#, fuzzy, no-wrap
+msgid "recommencer les étapes 5 à 7 lorsque vous avez des nouveaux SOSA à étiqueter.\n"
+msgstr "Ripetu stadiojn 5 ​​ĝis 7 kiam vi havas novan Sosa por esti etikedita. \n"

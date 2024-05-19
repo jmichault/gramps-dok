@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2023-10-08 22:35+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Yaml Front Matter Hash Value: title
+#: pri.md:1
+#, fuzzy, no-wrap
+msgid "À propos de l'auteur"
+msgstr "Pri la aŭtoro"
+
+#. type: Plain text
+#: pri.md:11
+#, fuzzy, no-wrap
+msgid ""
+"Passionné d'électronique depuis l'âge de 10 ans et accro aux ordinateurs depuis l'âge de 18 ans.\n"
+"Je suis impliqué dans l'open source depuis la fin du 20ème siècle.\n"
+msgstr "Pasia pri elektroniko ekde la aĝo de 10 jaroj kaj toksomaniulo al komputiloj ekde 18 jaroj. \n"
+
+#, fuzzy, no-wrap
+#~ msgid "fr"
+#~ msgstr "Fr"
+
+#, fuzzy, no-wrap
+#~ msgid "fonto"
+#~ msgstr "fonto"
+
+#, fuzzy, no-wrap
+#~ msgid "999-pri"
+#~ msgstr "999-pri"
+
+#, fuzzy, no-wrap
+#~ msgid "page"
+#~ msgstr "page"

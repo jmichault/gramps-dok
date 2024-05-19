@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-05-19 14:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Yaml Front Matter Hash Value: title
+#: index.md:1
+#, no-wrap
+msgid "Introduction"
+msgstr ""
+
+#. type: Plain text
+#: index.md:9
+#, no-wrap
+msgid "_Gramps_ vous permet de gérer une base de données généalogique.  \n"
+msgstr ""
+
+#. type: Plain text
+#: index.md:10
+#, no-wrap
+msgid "Le premier contact avec _Gramps_ est souvent difficile car les concepteurs ont fait des choix différents des autres logiciels, par exemple sur la fiche «Individu», on ne peut pas saisir directement la date de naissance \\(il faut créer un évènement de type naissance\\).  \n"
+msgstr ""
+
+#. type: Plain text
+#: index.md:11
+#, no-wrap
+msgid "D'autre part, le choix a été fait de ne gérer dans le logiciel lui-même que l'essentiel : la saisie et l'affichage des données. Toutes les autres fonctions sont gérées dans des greffons, très nombreux, mais dont seuls quelques-uns sont installés par défaut. Là encore ça peut être déroutant car certaines fonctions qui peuvent paraître essentielles ne sont pas présentes par défaut \\(mais où est le SOSA ?\\).  \n"
+msgstr ""
+
+#. type: Plain text
+#: index.md:18
+#, no-wrap
+msgid ""
+"Une fois ces premiers obstacles franchis, vous pourrez profiter pleinement des qualités de _Gramps_, par exemple :\n"
+"* la puissance des filtres\n"
+"* la richesse des greffons\n"
+"* le presse-papiers\n"
+"* la possibilité de mettre des notes à peu près n'importe où\n"
+"* la gestion fine des sources\n"
+"* et bien d'autres…\n"
+msgstr ""

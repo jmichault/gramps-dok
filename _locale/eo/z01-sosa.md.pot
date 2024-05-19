@@ -1,0 +1,140 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr "Project-Id-Version: PACKAGE VERSION\nPOT-Creation-Date: 2024-05-19 17:44+0200\nPO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\nLast-Translator: FULL NAME <EMAIL@ADDRESS>\nLanguage-Team: LANGUAGE <LL@li.org>\nLanguage: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\n"
+
+#. type: Yaml Front Matter Hash Value: kategorio
+#: ./z01-sosa.md:1
+#, no-wrap
+msgid "Konsiloj kaj lertaĵoj"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: ./z01-sosa.md:1
+#, no-wrap
+msgid "Emfazu vian Sosa"
+msgstr ""
+
+#. type: Plain text
+#: ./z01-sosa.md:12
+#, markdown-text, no-wrap
+msgid "Sed: Metu purpuran etikedon sur ĉiujn viajn prapatrojn. \n"
+msgstr ""
+
+#. type: Plain text
+#: ./z01-sosa.md:14
+#, markdown-text, no-wrap
+msgid "Rekomendindaj Antaŭkondiĉoj: Instalinte la \"grafikan vidon\" etendon\n"
+msgstr ""
+
+#. type: Bullet: '1. '
+#: ./z01-sosa.md:16
+#, markdown-text, no-wrap
+msgid "Kreu SOSA -etikedon:\n"
+msgstr ""
+
+#. type: Bullet: '   * '
+#: ./z01-sosa.md:18
+#, markdown-text, no-wrap
+msgid "Iru al la menuo \"Eldono\" -> \"etikedo\" -> \"Nova etikedo\"\n"
+msgstr ""
+
+#. type: Bullet: '     * '
+#: ./z01-sosa.md:20
+#, markdown-text, no-wrap
+msgid "Nomo: Metu Sosa\n"
+msgstr ""
+
+#. type: Bullet: '     * '
+#: ./z01-sosa.md:22
+#, markdown-text, no-wrap
+msgid "Koloro: Elektu koloron, mi uzas purpuron. \n"
+msgstr ""
+
+#. type: Bullet: '2. '
+#: ./z01-sosa.md:24
+#, markdown-text, no-wrap
+msgid "Rimarku la identigilon de la streĉa individuo. \n"
+msgstr ""
+
+#. type: Bullet: '3. '
+#: ./z01-sosa.md:26
+#, markdown-text, no-wrap
+msgid "Iru al la \"individua\" vido. \n"
+msgstr ""
+
+#. type: Bullet: '4. '
+#: ./z01-sosa.md:28
+#, markdown-text, no-wrap
+msgid "Kreu SOSA -filtrilon\n"
+msgstr ""
+
+#. type: Bullet: '   * '
+#: ./z01-sosa.md:30
+#, markdown-text, no-wrap
+msgid "Regulo = \"Ascendantoj de ĉi tiu \\<individuo\\>\"\n"
+msgstr ""
+
+#. type: Bullet: '   * '
+#: ./z01-sosa.md:32
+#, markdown-text, no-wrap
+msgid "Valoroj:\n"
+msgstr ""
+
+#. type: Bullet: '     * '
+#: ./z01-sosa.md:34
+#, markdown-text, no-wrap
+msgid "Identigilo: Metu la identigilon de la streĉa individuo\n"
+msgstr ""
+
+#. type: Bullet: '     * '
+#: ./z01-sosa.md:36
+#, markdown-text, no-wrap
+msgid "Inkluziva: Kontrolu\n"
+msgstr ""
+
+#. type: Bullet: '5. '
+#: ./z01-sosa.md:38
+#, markdown-text, no-wrap
+msgid "Apliki la filtrilon\n"
+msgstr ""
+
+#. type: Bullet: '6. '
+#: ./z01-sosa.md:40
+#, markdown-text, no-wrap
+msgid "Elektu Ĉian Sosa:\n"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ./z01-sosa.md:42
+#, markdown-text, no-wrap
+msgid "Alklaku la unuan por elekti ĝin\n"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ./z01-sosa.md:44
+#, markdown-text, no-wrap
+msgid "Shift-alklaku la lastan por elekti ilin ĉiujn\n"
+msgstr ""
+
+#. type: Bullet: '7. '
+#: ./z01-sosa.md:46
+#, markdown-text, no-wrap
+msgid "Alklaku la ikonon de la etikedoj\n"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: ./z01-sosa.md:48
+#, markdown-text, no-wrap
+msgid "Elektu la opcion \"Aldoni la SOSA -Etikedon\"\n"
+msgstr ""
+
+#. type: Plain text
+#: ./z01-sosa.md:51
+#, markdown-text, no-wrap
+msgid "Ripetu stadiojn 5 ​​ĝis 7 kiam vi havas novan Sosa por esti etikedita. \n"
+msgstr ""

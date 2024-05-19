@@ -1,0 +1,340 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-05-19 17:32+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Yaml Front Matter Hash Value: kategorio
+#: 001-debut.md:1
+#, no-wrap
+msgid "Prezento"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: 001-debut.md:1
+#, no-wrap
+msgid "Simpligitaj datumaj diagramoj"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:12
+#, no-wrap
+msgid "Antaŭ ol eniri Gramps, gravas kompreni kiel la datumoj estas organizitaj. \n"
+msgstr ""
+
+#. type: Title #
+#: 001-debut.md:13
+#, no-wrap
+msgid "La familia universo"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:20
+#, no-wrap
+msgid ""
+"La tri esencaj objektoj, kiuj permesos al vi konstrui vian arbon, estas:\n"
+"* la individuo:   \n"
+"  la bazo de via genealogio.   \n"
+"* la familio : \n"
+"  Familio en Gramps konsistas el unu aŭ du individuoj \\(konvencie la edzo kaj la virino, sed Gramps rajtigas ĉiujn kombinaĵojn\\), kaj infanojn. Ĝi permesos konstrui la arbon.\n"
+"* la evento:  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:24
+#, no-wrap
+msgid ""
+"  okazaĵo konsistas ĉefe el tipo, dato \\(aŭ pèriodo\\), kaj priskribo.   \n"
+"  Ekzemple naskiĝo, deklaro de naskiĝo, morto, geedzeco, la profesio estos kaptita en evento. \n"
+"  La evento povas esti referencita de individuoj kaj/aŭ familioj.\n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:45
+#, no-wrap
+msgid ""
+"<div class=\"mermaid\">\n"
+"   erDiagram\n"
+"     Familio ||--o| Individuo: \"Edzo/edzo\"\n"
+"     Familio ||--o| Individuo: \"Virino/edzo\"\n"
+"     Familio ||--o{ Individuo: \"Infanoj\"\n"
+"     Familio ||--o{ \"Okazaĵoj\": participo\n"
+"     Individuo ||--o{ \"Okazaĵoj\": participo\n"
+"     Individuo{\n"
+"       Nomo Cxefa_Nomo\n"
+"       Nomlisto Alternativaj_Nomoj\n"
+"     }\n"
+"     Familio{\n"
+"       Teksto Tipo\n"
+"     }\n"
+"     \"Okazaĵoj\"{\n"
+"       Teksto Tipo\n"
+"       Dato Event_date\n"
+"       Tekste Priskribo\n"
+"       Loko loko_de_la_okazajxo\n"
+"     }\n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:47
+#, no-wrap
+msgid "</div>\n"
+msgstr ""
+
+#. type: Title #
+#: 001-debut.md:48
+#, no-wrap
+msgid "La universo de fontoj"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:51
+#, no-wrap
+msgid ""
+"Fontaĵi vian genealogion estas esenca por ĝia validigo.   \n"
+"Vi havas tri objektojn por administri la fontojn:\n"
+"* la citaĵo:  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:54
+#, no-wrap
+msgid ""
+"  Ĉi tiu estas la plej bona elemento de fontoj, tiu, kiu estos referencita de la individuo, la familio, la evento, la loko, la aŭdvidaĵo.   \n"
+"  Ekzemple ĝi estos la naskiĝtesto trovita en registro, alineo en libro aŭ revuo ...\n"
+"  La citaĵo estas ligita al fonto.  \n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 001-debut.md:55
+#, no-wrap
+msgid "la fonto :  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:59
+#, no-wrap
+msgid ""
+"  La fonto estas la medio el kiu vi ĉerpas viajn citaĵojn.   \n"
+"  Ĝi povas esti registro, mikrofilmo, libro ...\n"
+"La fonto situas en unu aŭ pluraj kuŝejoj.\n"
+"* la deponejoj:  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:61
+#, no-wrap
+msgid ""
+"  La deponejo ebligas grupigi la fontojn.   \n"
+"  Ĝi povas esti faka arkivo, retejo, via monŝranko...  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:86
+#, no-wrap
+msgid ""
+"  Fonto troveblas en pluraj deponejoj.   \n"
+"  Bedaŭrinde, la hierarkio de fontoj finiĝas tie. Oni eble volas, ke deponejo estu parto de alia deponejo, sed gramps ne subtenas ĉi tion.\n"
+"<div class=\"mermaid\">\n"
+"   erDiagram\n"
+"     \"Cita&jcirc;o\" ||--o| Fonto: en\n"
+"     Fonto ||--o{ \"Deponejo\": \"konservita en (subtena tipo, takso)\"\n"
+"     \"Cita&jcirc;o\"{\n"
+"       Dato dato_de_okazajxo\n"
+"       Volumo_Pagxo loko_en_fonto\n"
+"       nivelo konfido_nivelo\n"
+"     }\n"
+"     Fonto{\n"
+"       Teksto Titolo\n"
+"       Teksto Auxtoroj\n"
+"       Teksto Publikigo_info\n"
+"       Teksto Mallongigo\n"
+"     }\n"
+"     \"Deponejo\"{\n"
+"       Teksto Nomo\n"
+"       Teksto Tipo\n"
+"       Adreso Adreso\n"
+"       listo_de_ligiloj Interretaj_ligiloj\n"
+"     }\n"
+"</div>\n"
+msgstr ""
+
+#. type: Title #
+#: 001-debut.md:87
+#, no-wrap
+msgid "Aneksitaj objektoj"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:89
+#, no-wrap
+msgid ""
+"Fine kvar objektoj por riĉigi viajn datumojn:\n"
+"* la aŭdvidaĵo:  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:90
+#, no-wrap
+msgid "   Permesas al vi integri dosieron en la arbon. Ĝi povas esti bildo, video, PDF aŭ io alia.  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:93
+#, no-wrap
+msgid ""
+"   Ni povos ligi ĝin al individuoj, familioj, eventoj, citaĵoj aŭ lokoj.   \n"
+"* la noto : \n"
+"   formita de titolo kaj teksto\\(multiligna kaj formatinda\\).  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:102
+#, no-wrap
+msgid ""
+"   Tre utila! Povas esti ligita al iu ajn objekto aŭ objektoreferenco.\n"
+"   Permesas al vi enigi la enhavon de dokumentoj, enigi serĉajn kondukojn kaj multajn aliajn aferojn.\n"
+"   Noto povas esti ligita al pluraj objektoj.\n"
+"* loko: \n"
+"  Por ne re -enigi la samon, evitu kopii erarojn, specife lokalizi la lokojn, kie okazis viaj eventoj.   \n"
+"  La lokoj povas kuniĝi unu en la alia \\(Ekzemplo: lando-> fako-> municipo-> vilaĝeto\\).   \n"
+"  Antaŭ ol vi komencas eniri lokojn, vi devas zorge pripensi kiel vi organizas la lokojn, kaj kiu kromaĵo permesos al vi administri ilin.\n"
+"* la etikedo\n"
+"  Ili povas esti administritaj per la menuo \"Redaktu\" --> \"Etikedo\".  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:103
+#, no-wrap
+msgid "  Vi povas meti etikedojn sur ĉiu objekto.  \n"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:108
+#, no-wrap
+msgid ""
+"  Etikedo estas mallonga teksto, kun kiu oni asocias koloron.   \n"
+"  La etikedoj povas esti uzataj:\n"
+"  * por filtri\n"
+"  * por reliefigi en la listoj aŭ en la grafika vido, danke al la koloro. \n"
+msgstr ""
+
+#. type: Title #
+#: 001-debut.md:109
+#, no-wrap
+msgid "la kompleta diagramo"
+msgstr ""
+
+#. type: Plain text
+#: 001-debut.md:111
+#, no-wrap
+msgid "Se vi volas iri pli detale, la diagramo de la datumbazo Gramps povas esti konsultita ĉi tie: <https://gramps-project.org/wiki/index.php/Gramps_Data_model>\n"
+msgstr ""
+
+#. type: Title #
+#: 001-debut.md:113
+#, no-wrap
+msgid "Unuaj Kaptiloj"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:114
+#, no-wrap
+msgid "krei individuon"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:115
+#, no-wrap
+msgid "aldonu eventon al individuo"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:116
+#, no-wrap
+msgid "aldonu gepatrojn"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:117
+#, no-wrap
+msgid "aldonu edzinon"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:118
+#, no-wrap
+msgid "aldonu infanon"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:119
+#, no-wrap
+msgid "aldonu Citaĵon"
+msgstr ""
+
+#. type: Title #
+#: 001-debut.md:121
+#, no-wrap
+msgid "Iru plie"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:122
+#, no-wrap
+msgid "lokoj"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:123
+#, no-wrap
+msgid "la notoj"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:124
+#, no-wrap
+msgid "la glumarkoj"
+msgstr ""
+
+#. type: Title ##
+#: 001-debut.md:125
+#, no-wrap
+msgid "la aŭdvidaĵoj"
+msgstr ""
+
+#. type: Title #
+#: 001-debut.md:128
+#, no-wrap
+msgid "Kie ricevi helpon?"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 001-debut.md:130
+#, no-wrap
+msgid "oficiala Dokumentado: <https://gramps-project.org/wiki/index.php/Gramps_5.1_Wiki_Manual>\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 001-debut.md:132
+#, no-wrap
+msgid "gramps Diskurso: <https://gramps.discourse.group/> \\(en la angla\\)\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 001-debut.md:134
+#, no-wrap
+msgid "la forumo de geneanet: <https://www.geneanet.org/forum/viewforum.php?f=55945&sid=de725cd97855d4a68268a420061b629f> \\(en la franca\\)\n"
+msgstr ""

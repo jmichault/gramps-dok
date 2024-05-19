@@ -1,0 +1,165 @@
+# SOME DESCRIPTIVE TITLE
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-05-19 17:04+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. type: Yaml Front Matter Hash Value: kategorio
+#: 008-lokoj.md:1
+#, no-wrap
+msgid "Aller plus loin"
+msgstr ""
+
+#. type: Yaml Front Matter Hash Value: title
+#: 008-lokoj.md:1
+#, no-wrap
+msgid "gestion des lieux"
+msgstr ""
+
+#. type: Title #
+#: 008-lokoj.md:10
+#, no-wrap
+msgid "Sources pour les lieux"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 008-lokoj.md:12
+#, no-wrap
+msgid "http://gov.genealogy.net/\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 008-lokoj.md:14
+#, no-wrap
+msgid "http://geo.api.gouv.fr/ kaj https://api.insee.fr/\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 008-lokoj.md:16
+#, no-wrap
+msgid "https://www.geonames.org/v3/\n"
+msgstr ""
+
+#. type: Title #
+#: 008-lokoj.md:18
+#, no-wrap
+msgid "types de lieux"
+msgstr ""
+
+#. type: Plain text
+#: 008-lokoj.md:42
+#, no-wrap
+msgid ""
+"| code gramps | gramps eo     | gramps fr                 | gov | gouv.fr        | geonames.org |\n"
+"|-------------|---------------|---------------------------|-----|----------------|--------------|\n"
+"| 1           | Lando         | Pays                      |     | Pays           |  PCLI        |\n"
+"| 2           | Ŝtato         | Province (Région)         |     |                |              |\n"
+"| 3           | Provinco      | Comté (Départ.)           |     |                |              |\n"
+"| 4           | Urbo          | Ville                     |     |                |              |\n"
+"| 5           | Paroko        | Paroisse                  |     |                |              |\n"
+"| 6           | Loko          | Lieu-dit                  |     |                |              |\n"
+"| 7           | Strato        | Rue                       |     |                |              |\n"
+"| 8           | Provinco      | Province                  |     |                |              |\n"
+"| 9           | Regiono       | Région                    |     | Région         | ADM1         |\n"
+"| 10          | Departmento   | Département               |     | Département    | ADM2         |\n"
+"| 11          | Proksimeco    | Quartier                  |     |                |              |\n"
+"| 12          | Distrikto     | District (Arrondissement) |     |                |              |\n"
+"| 13          | Urbodistrikto |\tBorough (Arrondissement)  |     | Arrondissement | ADM3         |\n"
+"| 14          | Municipo      | Municipalité              |     | Commune        | ADM4         |\n"
+"| 15          | Urbo          | Bourg                     |     |                |              |\n"
+"| 16          | Vilaĝo        | Village                   |     |                |              |\n"
+"| 17          | Vilaĝeto      | Hameau                    |     |                |              |\n"
+"| 18          | Farmo         | Ferme                     |     |                |              |\n"
+"| 19          | Konstruaĵo    | Immeuble                  |     |                |              |\n"
+"| 20          | Numero        | Numéro                    |     |                |              |\n"
+msgstr ""
+
+#. type: Title #
+#: 008-lokoj.md:44
+#, no-wrap
+msgid "greffons"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 008-lokoj.md:47
+#, no-wrap
+msgid "getgov\n"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: 008-lokoj.md:49
+#, no-wrap
+msgid "interfaco kun http://gov.genealogy.net/\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 008-lokoj.md:51
+#, no-wrap
+msgid "PlaceFrCog\n"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: 008-lokoj.md:52
+#, no-wrap
+msgid "interfaco kun http://api.gouv.fr/  \n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 008-lokoj.md:55
+#, no-wrap
+msgid "PlaceCleanupGramplet\n"
+msgstr ""
+
+#. type: Bullet: '  * '
+#: 008-lokoj.md:57
+#, no-wrap
+msgid "interfaco kun http://www.geonames.org/\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 008-lokoj.md:59
+#, no-wrap
+msgid "PlaceUpdate\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 008-lokoj.md:61
+#, no-wrap
+msgid "PlaceCoordinatesGramplet\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 008-lokoj.md:63
+#, no-wrap
+msgid "PlaceCoordinateGeoView\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 008-lokoj.md:65
+#, no-wrap
+msgid "PlaceCompletion\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 008-lokoj.md:67
+#, no-wrap
+msgid "ExtractCity\n"
+msgstr ""
+
+#. type: Bullet: '* '
+#: 008-lokoj.md:69
+#, no-wrap
+msgid "GoogleEarthWriteKML\n"
+msgstr ""
